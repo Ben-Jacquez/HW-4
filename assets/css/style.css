@@ -1,4 +1,8 @@
-/* .hidden {
-  display: none;
+* {
+    font-family: "sans-sherif";
 }
-*/
+
+.hidden {
+    display: none;
+}
+
