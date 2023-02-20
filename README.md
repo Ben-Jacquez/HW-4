@@ -1,6 +1,6 @@
 # Code Quiz By Benjamin Jacquez
 ## Description
-Timed Coding Quiz Utalizing Javascript To Count Down From 60 Seconds During A 4 Question Quiz
+Timed Coding Quiz Utalizing Javascript To Count Down From 60 Seconds During A 4 Question Quiz.
 
 ## Deployed Website
 [Deployed Version Here](https://ben-jacquez.github.io/coding-quiz/)
@@ -21,7 +21,7 @@ Timed Coding Quiz Utalizing Javascript To Count Down From 60 Seconds During A 4 
 - Javascript
 
 ## Usage
-This Is a Timed Coding Quiz Which Utalizes Javascript For A Timer, Query Selectors, Add Event Listeners, & Functions To Edit HTML. User Has 60 Seconds To Answer 4 Questions. If User Gets A Question Wrong There Is A -10 Second Penatly Taken Off Time Remaining. Score Is Then Calculated Based Off Of Time Remaining After All 4 Questions Have Been Answered. User Can Then Save His Name & Score Locally 
+This Is a Timed Coding Quiz Which Utalizes Javascript For A Timer, Query Selectors, Add Event Listeners, & Functions To Edit HTML. User Has 60 Seconds To Answer 4 Questions. If User Gets A Question Wrong There Is A -10 Second Penatly Taken Off Time Remaining. Score Is Then Calculated Based Off Of Time Remaining After All 4 Questions Have Been Answered. User Can Then Save His Name & Score Locally.
 
 ## Features
 - Timer
