@@ -4,7 +4,7 @@ Timed Coding Quiz
 
 ## Deployed Website
 [Deployed Version Here](https://ben-jacquez.github.io/coding-quiz/)
-![Website Screenshot](coding-quiz/assets/img/code-quiz-ss.png)
+![Website Screenshot](assets/img/code-quiz-ss.png)
 
 ## Table of Contents
 - [Description](#description)

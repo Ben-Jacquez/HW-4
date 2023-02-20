@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link To Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Coding Quiz</title>
   </head>
-  <body class="col-12 text-center">
 
+  <body class="col-12 text-center">
+    <!-- Quiz Container First Card With Name & Text Gets Hidden With Even Listener "Start Button" -->
     <div class="quiz-container">
       <div id="welcome">
         <h1>Coding Quiz</h1>
@@ -20,22 +21,23 @@
         <button type="button" class="start-button">
           Start Quiz </button>
       </div>
-
+    <!-- Timer -->
       <div class="container justify-end">
         <div class="time-counter"></div>
       </div>
     </div>
 
+    <!-- Quiz Container Holding Questions That Change -->
     <div class="quiz-container">
       <h2 class="quiz-question"></h2>
-      <ul
-        class="answer-container align-items-center justify-content-center"
-      ></ul>
+      <ul class="answer-container align-items-center justify-content-center"></ul>
     </div>
 
+    <!-- Quiz Over Hidden Until Quiz Is Over -->
     <div id="quiz-over" class="hidden">
       <h2>Quiz Over!</h2>
       <p>Quiz Score= <span id="final-score"></span>.</p>
+      <!-- Save Name In Text Field To Attach To Score & Save -->
       <form id="save-name">
         <label for="save-name"
           >Save Name:</label
@@ -50,11 +52,11 @@
       </form>
     </div>
 
+    <!-- Quiz Scores Portion Hidden Until Quiz Complete Then Unhidden -->
     <span class="quiz-scores hidden"></span>
-    <div class="high-scores-page hidden">
-      <button type="button" class="back-button">
-        Back
-      </button>
+    <div class="quiz-scores-page hidden">
+    <!-- Back Button-->
+      <button type="button" class="back-button"> Back </button>
     </div>
     <script src="./assets/js/script.js"></script>
   </body>

@@ -1,6 +1,5 @@
 * {
     font-family: "sans-sherif";
-    
 }
 
 body {
@@ -12,10 +11,7 @@ div {
     text-align: center;
 }
 
-h1 {
-    color: white;
-}
-
+/* hidden and hide are used a lot in the js to make this all stay on 1 HTML*/
 .hidden {
     display: none;
 }
@@ -28,7 +24,7 @@ h1 {
     color: red;
     font-size: 50px;
 }
-
+/* Keeps Containers Fitting Proportinally On The Screen In A Vertical Line */
 .answer-container {
     margin: 50px;
     padding: 0;
