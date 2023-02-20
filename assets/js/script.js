@@ -10,7 +10,6 @@ var nameEl = document.querySelector("#save-name");
 var inputEl = document.querySelector("#input");
 var quizScoreEl = document.querySelector(".quiz-scores");
 
-var scoresButton = document.querySelector(".scores-button");
 var backButton = document.querySelector(".back-button");
 var highScoresPage = document.querySelector(".high-scores-page");
 
@@ -172,5 +171,4 @@ highScoresPage.classList.add("hidden");
 startButton.addEventListener("click", startQuiz);
 answerContainer.addEventListener("click", checkAnswer);
 nameEl.addEventListener("submit", saveScore);
-scoresButton.addEventListener("click", showScoresHideWelcome);
 backButton.addEventListener("click", resetQuiz);
