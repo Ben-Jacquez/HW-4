@@ -9,7 +9,6 @@ var quizOverEl = document.querySelector("#quiz-over");
 var nameEl = document.querySelector("#save-name");
 var inputEl = document.querySelector("#input");
 var quizScoreEl = document.querySelector(".quiz-scores");
-
 var backButton = document.querySelector(".back-button");
 var highScoresPage = document.querySelector(".high-scores-page");
 

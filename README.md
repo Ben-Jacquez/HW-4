@@ -1,10 +1,10 @@
 # Code Quiz By Benjamin Jacquez
 ## Description
-
+Timed Coding Quiz
 
 ## Deployed Website
 [Deployed Version Here](https://ben-jacquez.github.io/coding-quiz/)
-![Website Screenshot]()
+![Website Screenshot](coding-quiz/assets/img/code-quiz-ss.png)
 
 ## Table of Contents
 - [Description](#description)
@@ -15,7 +15,10 @@
 - [License](#license)
 
 ## Technology Used
-
+- Visual Studio Code
+- HTML
+- CSS & Bootstrap
+- Javascript
 
 ## Usage
 
