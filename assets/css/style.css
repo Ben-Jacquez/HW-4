@@ -2,7 +2,20 @@
     font-family: "sans-sherif";
 }
 
+body {
+    background-color: steelblue;
+}
+
+div {
+    display: block;
+    text-align: center;
+}
+
 .hidden {
+    display: none;
+}
+
+.hide {
     display: none;
 }
 
